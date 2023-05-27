@@ -107,7 +107,7 @@
   bottom: 0;
   height: 3px;
   width: 100%;
-  background-color: #646464;
+  background-color: #929292;
   opacity: 0.2;
   filter: alpha(opacity=10);
 }
@@ -211,12 +211,6 @@
   }
 }
 
-@keyframes noty_modal_out {
-  100% {
-    opacity: 0;
-  }
-}
-
 @-webkit-keyframes noty_anim_in {
   100% {
     transform: translate(0);
@@ -300,8 +294,8 @@
 }
 
 .noty_theme__mint.noty_type__success {
-  background-color: #AFC765;
-  border-bottom: 1px solid #A0B55C;
+  background-color: #00a27f;
+  border-bottom: 1px solid #00a27f;
   color: #fff;
 }
 
@@ -312,11 +306,11 @@ body {
 }
 
 nav li:last-child a {
-  background: #FE5F1E;
+  background:#ffdd00;
 }
 
 nav li:last-child a:hover {
-  background: #b23301;
+  background: #ffcf4a;
 }
 
 nav li a {
@@ -324,7 +318,7 @@ nav li a {
 }
 
 nav li a:hover {
-  color: #FE5F1E;
+  color: #ffcf4a;
 }
 
 section.hero {
@@ -335,14 +329,15 @@ section.hero {
   background: #F8F8F8;
 }
 
+
 .add-to-cart {
-  border: 2px solid #FE5F1E;
-  color: #FE5F1E;
+  border: 2px solid #ffdd00;
+  color: #ffdd00;
   transition: all 0.3s ease-in-out;
 }
 
 .add-to-cart:hover {
-  background: #FE5F1E;
+  background: #ffcf4a;
   border-color: #fff;
   color: #fff;
 }
@@ -352,12 +347,12 @@ section.hero {
 }
 
 .btn-primary {
-  background: #FE5F1E;
+  background: #ffdd00;
   transition: all 0.3s ease-in-out;
 }
 
 .btn-primary:hover {
-  background: #b23301;
+  background: #ffcf4a;
 }
 
 section.cart {
@@ -365,7 +360,7 @@ section.cart {
 }
 
 section.cart .amount {
-  color: #FE5F1E;
+  color: #ffdd00;
 }
 
 section.login {
@@ -374,11 +369,11 @@ section.login {
 }
 
 section.login a {
-  color: #FE5F1E;
+  color: #ffdd00;
 }
 
 section.login a:hover {
-  color: #b23301;
+  color: #ffcf4a;
 }
 
 .noty_theme__mint {
@@ -387,7 +382,7 @@ section.login a:hover {
 }
 
 a.link {
-  color: #FE5F1E;
+  color: #ffcf4a;
 }
 
 section.status {
@@ -484,11 +479,11 @@ section.status {
 }
 
 .status-box ul li.current span {
-  color: #FE5F1E;
+  color: #ffdd00;
 }
 
 .status-box ul li.current span:after {
-  background: #FE5F1E;
+  background: #ffdd00;
 }
 
 .status-box ul li small {
@@ -540,3 +535,50 @@ section.status {
   background-color: #fefde5 !important;
 }
 
+.cart-item {
+  border-bottom: 1px solid;
+  padding-bottom: 40px;
+  transition: transform 2s ease, opacity 2s ease;
+}
+
+.cancel-item-icon {
+  color: #e81919;
+}
+
+.cancel-item-icon-progress {
+  color: #ffdd00;
+  -webkit-animation: shake 1.5s ease infinite;
+          animation: shake 1.5s ease infinite;
+}
+
+.cancel-item-icon-success {
+  color: #4BB543;
+}
+
+@-webkit-keyframes shake {
+  25% {
+    transform: rotate(40deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  75% {
+    transform: rotate(-40deg);
+  }
+}
+
+@keyframes shake {
+  25% {
+    transform: rotate(40deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  75% {
+    transform: rotate(-40deg);
+  }
+}
