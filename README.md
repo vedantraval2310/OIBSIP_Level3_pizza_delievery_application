@@ -13,3 +13,16 @@
 - 5. Admin must receive the order and change the status of the pizza- as order received, In the kitchen, and Sent to delivery.
 
 - 6. For every update from the admin, the status change must be reflected in the user dashboard.
+
+
+## Installation 
+
+- After download or clone run `npm install` to install all the dependancies.
+
+- Then after open test account in payment gateway (Razorpay) and paste secret key in .env file and publishable key in resources file. 
+
+- Then after create a database named 'pizza' in MongoDB and create a collection named menus and paste 'menus.json' to collection. 
+
+- So now our project is ready to run. To run project run 'node server.js' command in terminal.
+
+🙏 If you find this repo helpful then don't forget to give a star ❇️ to this repository. :)
