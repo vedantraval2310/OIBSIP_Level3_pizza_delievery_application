@@ -1,5 +1,5 @@
-# Realtime pizza app using Node-express-mongo-socket.io
 
+- 
 ## Description 
 
 - 1. Create a full stack app using React, MongoDB, and Nodejs.
@@ -14,6 +14,11 @@
 
 - 6. For every update from the admin, the status change must be reflected in the user dashboard.
 
+## Tech-stack
+- node.js
+- express.js
+- socket.io
+- payment integration (stripe api)
 
 ## Installation 
 
