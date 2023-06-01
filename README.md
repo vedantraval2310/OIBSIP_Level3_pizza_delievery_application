@@ -1,5 +1,4 @@
 
-- 
 ## Description 
 
 - 1. Create a full stack app using React, MongoDB, and Nodejs.
