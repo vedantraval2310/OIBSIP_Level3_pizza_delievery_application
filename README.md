@@ -19,6 +19,16 @@
 - socket.io
 - payment integration (stripe api)
 
+## Demo 
+
+
+https://github.com/vedantraval2310/OIBSIP_Level3_pizza_delievery_application/assets/76436755/24374299-92c0-4156-b0b0-74160eabec96
+
+
+https://github.com/vedantraval2310/OIBSIP_Level3_pizza_delievery_application/assets/76436755/b1074a81-a4c1-4475-841b-33191bad94fc
+
+
+
 ## Installation 
 
 - After download or clone run `npm install` to install all the dependancies.
